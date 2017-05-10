@@ -1,0 +1,107 @@
+body {
+  background-color: #fbfbf9;
+  font: 300 22px/1.5 "Source Sans Pro", sans-serif;
+  text-shadow: 1px 1px 1px #fff;
+  color: #444;
+  line-height: 1.4em;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+/* Text */
+
+h1 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.2em;
+  font-size: 1.2em;
+}
+
+/* Hyperlinks */
+
+a {
+  text-decoration: none;
+  color: #23ccbe;
+}
+a:hover {
+  color: #01aa9c;
+  padding-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+a:visited {
+  color: #01aa9c;
+}
+
+/* Divs */
+
+.container {
+
+  width: 800px;
+  margin: 0 auto
+}
+
+.card {
+  background: #fbfbf9;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 35px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline-item {
+  display: inline-block;
+  padding: 0px 40px 0px 40px;
+}
+
+.list-img-link {
+  padding-bottom: 10px;
+}
+
+/* IDs */
+
+#img-profile {
+  width: 200px;
+  height: auto;
+  margin-top: 55px;
+  margin-bottom: 15px;
+}
+
+td {
+  padding: 15px;
+
+}
+
+/* Tables */
+
+.text-table-normal {
+  font: 300 16px/1.5 "Source Sans Pro", sans-serif;
+}
+
+.text-table-bold {
+  font: 350 16px/1.5 "Source Sans Pro", sans-serif;
+}
+
+.text-table-header {
+  font-weight: normal;
+  font-size: 1.3em;
+}
+
+/* Images */
+
+img {
+  width: 100%;
+}
